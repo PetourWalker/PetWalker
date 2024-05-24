@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+
+.Container{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.contLogoPrin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logoPrin{
+    width: 64px;
+    height: 89px;
+}
+
+.Printitle{
+    margin-top: 1px;
+    color: #B4B4B4;
+}
+
+.TextLogin{
+    color: #7C7C7C;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.Text{
+    color: #FF5F5F;
+    margin-top: 20px;
+}
+
+.inputGroup {
+    margin-bottom: 10px;
+}
+
+.ButtonLogin{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.SingContainer{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.TextRegis{
+    color: #7C7C7C;
+}
+
+.TextSing{
+    border: none;
+    text-decoration: none;
+    color: #FF5F5F;
+
+}
+
+.TextSing:focus{
+    color: #7C7C7C;
+}
+
+.TextSing:hover{
+    color: #7C7C7C;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #B4B4B4;;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF5F5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

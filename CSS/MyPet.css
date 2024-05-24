@@ -1,0 +1,298 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+
+ul{
+    padding-left: 20px;
+	margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conPrev{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.buttonModal{
+    color: #FF5F5F;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 324px; 
+}
+
+
+.modal-content1{
+    background-color: #fefefe; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 200px;
+    height: 100%; 
+}
+
+.close,.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.IconContru{
+    height: 50px;
+    width: 50px;
+}
+
+.conContru{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.buttonAgre{
+    background-color: #FF5F5F;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+
+.contFomr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: #888;
+}
+
+.inputCus{
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid rgb(165, 165, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.IconLocation{
+    height: 200px;
+    width: 200px;
+}
+
+.ButtonDatos{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    color: #888;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.ButtonDatos:hover{
+    color: #FF5F5F;
+    background-color: #ffd7d7;
+}
+
+.Return{
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.contReturn{
+    width: 100%;
+}
+
+
+.textPrin{
+    border: 1px solid black;
+}
+
+.info-div{
+
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contRes{
+    margin-top: 220px;
+    width: 100%;
+}
+
+.conText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.Free{
+    padding: 10px 20px;
+    color: #888;
+    background-color: transparent;
+
+}
+
+#boton1 {
+    color: #FF5F5F;
+    background-color: #ffd7d7;
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+.ContPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.IconPerfil{
+    width: 50px;
+    height: 50px;
+}
+
+.NamePerfil{
+    padding: 0;
+    margin-bottom: 10px;
+    color: #5c5c5c;
+}
+
+.TextPerfil{
+    font-size: x-small;
+    margin-top: 0px;
+    color: #B4B4B4;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+.secPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5c5c5c;
+}
+
+.secPerfil:hover{
+    color: #FF5F5F;
+    .printPerfil{
+        fill: #FF5F5F;
+    }
+}
+
+.printPerfil{
+    width: 20px;
+    height: 20px;
+}
+
+.simbol{
+    font-size: 20px;
+}
+
+.ContButReserva{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ButReser{
+    margin-top: 20px;
+    width: 70%;
+    height: 50px;
+    font-size: larger;
+    background-color: #FF5F5F;
+    color: #fefefe;
+    border-radius: 10px;
+}
+
+.cambiado{
+    color: #FF5F5F;
+    background-color: #ffd7d7;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+    height: 50px;
+    font-size: larger;
+}
